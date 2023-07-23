@@ -1,0 +1,162 @@
+:root {
+    --color-primary: #ff2b85;
+    --color-primary-hover: #c21760;
+    --color-secondary: #ffffff;
+    --color-text: #231f20;
+  }
+  #header .imageContainer .img {
+    background: linear-gradient(#ffffff20, #00000080),
+      url("../image/newsroom/newsroom-foodpanda.jpg") no-repeat center center/cover;
+    height: 65rem;
+    width: 100%;
+  }
+  #header h1 {
+    position: absolute;
+    bottom: 8rem;
+    left: 10rem;
+    font-size: 6.5rem;
+    color: #fff;
+  }
+
+  #sec-05 h2 {
+    text-align: center;
+    font-size: 3.6rem;
+    line-height: 4.5rem;
+    color: #343b46;
+    font-weight: 700;
+    overflow: hidden;
+    margin-bottom: 7rem;
+  }
+
+  .latestPostSec {
+    margin-top: 7rem !important;
+  }
+  
+  .latestPostSec h2 {
+    font-size: 2.7rem !important;
+  }
+  
+  /* News Section Start  */
+  #newsSec {
+    max-width: 130rem;
+    margin: 0 auto;
+  }
+  
+  #newsSec .secBtns {
+    margin: 7rem auto;
+  }
+  
+  #newsSec .secBtns ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  #newsSec .secBtns ul li {
+    font-size: 1.6rem;
+    text-align: center;
+    background: #fff;
+    color: #000;
+    font-weight: 700;
+    padding: 0.8rem 3.5rem;
+    border-radius: 5rem;
+    text-transform: uppercase;
+    border: 0.1rem solid #000;
+    margin-left: 2rem;
+  }
+  #newsSec .secBtns ul li:first-child {
+    background: #000;
+    color: #fff;
+  }
+  #newsSec .secBtns ul li:last-child {
+    font-size: 1.5rem;
+    border: none;
+  }
+  
+  #newsSec .newsCardsContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 5rem;
+  }
+  
+  #newsSec .newsCardsContainer .newsCard {
+    width: 40rem;
+  }
+  
+  #newsSec .newsCardsContainer .newsCard .cardImg {
+    overflow: hidden;
+    width: 100%;
+    height: 21rem;
+  }
+  
+  #newsSec .newsCardsContainer .newsCard .cardImg img {
+    object-fit: contain;
+    width: 100%;
+    transition: all 0.3s ease-in;
+  }
+  #newsSec .newsCardsContainer .newsCard .cardImg img:hover {
+    transform: scale(1.15) rotate(5deg);
+    filter: brightness(0.5);
+  }
+  
+  #newsSec .newsCardsContainer .newsCard .newsCardLinks ul {
+    display: flex;
+    align-items: center;
+  }
+  
+  #newsSec .newsCardsContainer .newsCard .newsCardLinks ul li {
+    padding: 1.7rem 0 1.8rem 0;
+  }
+  
+  #newsSec .newsCardsContainer .newsCard .newsCardLinks ul li:nth-child(2) {
+    margin: 0 2rem;
+  }
+  
+  #newsSec .newsCardsContainer .newsCard .newsCardLinks ul li a {
+    color: var(--color-primary);
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+  
+  #newsSec .newsCardsContainer .newsCard .newsCardDescription {
+    font-size: 1.7rem;
+    color: var(--color-text);
+    text-align: left;
+    font-weight: 700;
+    width: 81%;
+  }
+  
+  #newsSec .newsCardsContainer .newsCard .newsCardDate {
+    font-size: 1.5rem;
+    color: var(--color-text);
+    text-align: left;
+    margin-top: 1.5rem;
+  }
+  /* News Section End  */
+  
+  /* Pagination Section Start  */
+  #paginationSec {
+    margin: 10rem auto;
+  }
+  
+  #paginationSec .paginationContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 25rem;
+    margin: 0 auto;
+    font-size: 2rem;
+    color: #b7b5ba;
+    font-weight: 600;
+  }
+  
+  #paginationSec .paginationContainer .txt1 {
+    color: #231f20;
+    background: #dad6e0;
+    padding: 1.1rem 1.5rem;
+    border-radius: 2rem;
+  }
+  /* Pagination Section End  */

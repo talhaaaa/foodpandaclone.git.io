@@ -1,0 +1,462 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  :root {
+    --color-primary: #ff2b85;
+    --color-secondary: #fff;
+    --color-text: rgb(7, 7, 7);
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    overflow-x: hidden;
+    font-family: "Lunasima", sans-serif;
+  }
+  #navbar {
+    overflow-y: hidden;
+    width: 100%;
+    max-width: 1600px;
+    height: 6.5rem;
+    /* padding: rem; */
+    background-color: var(--color-secondary);
+    display: flex;
+    justify-content: space-between;
+  }
+  #navbar .logo {
+    padding: 1.5rem 14rem;
+    cursor: pointer;
+  }
+  
+  #navbar .manuContainer .list {
+    overflow: hidden;
+    display: flex;
+    padding: 0rem 13rem;
+  }
+  
+  #navbar .manuContainer .list .link {
+    padding: 2.2rem 0rem;
+    cursor: pointer;
+  }
+  
+  #navbar .manuContainer ul li {
+    list-style-type: none;
+  }
+  #navbar .manuContainer ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+    padding: 0rem 1.4rem;
+    font-weight: 400;
+    transition: all 0.2s ease-in;
+  }
+  #navbar .manuContainer .list .link-home{
+    border-top: 0.2rem solid #ff2b85;
+    padding: 2.1rem 0rem;
+    cursor: pointer;
+  }
+  #navbar .manuContainer ul li:hover {
+    border-top: 0.2rem solid #ff2b85;
+    /* margin: 0; */
+    /* height: 6rem; */
+  
+  }
+  
+  
+  #navbar .manuContainer ul button {
+    width: 14rem;
+    height: 4rem;
+    border: none;
+    font-size: 1.4rem;
+    background-color: var(--color-primary);
+    border-radius: 2.2rem;
+    font-weight: 600;
+    color: var(--color-secondary);
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  #navbar .manuContainer .list span i {
+    padding: 2rem 2rem;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  #navbar .manuContainer ul button:hover {
+    background-color: #d1256d;
+  }
+
+ #header .headerpic{
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(9, 9, 9, 0.5)),
+  url("../image/about/about-foodpanda.jpeg") no-repeat center center/cover;
+  height: 90vh;
+  width: 100vw;
+  color: var(--color-light);
+  position: relative;
+  z-index: -1;
+
+ }
+
+ #header .headerpic .headertext{
+  position: absolute;
+  bottom: 12rem;
+  left:12rem
+ }
+ #header .headerpic .headertext h1{
+  font-size: 6rem;
+  color: var(--color-secondary);
+ }
+#main .main-1{
+  padding: 6rem 12rem;
+}
+#main .main-1 h3{
+  font-size: 2.7rem;
+  color: #343b46;
+  margin-bottom: 3rem;
+}
+
+#main .main-1 p{
+  font-size: 1.6rem;
+  font-weight: 400rem;
+  font-family: "Roboto", sans-serif;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 40rem;
+}
+
+#main .main-2 {
+  /* margin-left: 13rem; */
+  display: flex;
+  gap: 6rem;
+  margin: 0 auto;
+  max-width: 130rem;
+}
+
+#main .main-2 .pic1 img {
+  object-fit: contain;
+
+  width: 100%;
+}
+#main .main-2 .pic1 {
+  flex: 1;
+}
+#main .main-2 .text1{
+  flex: 1;
+}
+#main .main-2 .text1 h1 {
+  margin-top: 8rem;
+  font-size: 4rem;
+  color: #343b46;
+  text-align: start;
+}
+
+#main .main-2 .text1 p {
+  font-size: 1.8rem;
+  font-weight: 400rem;
+  font-family: "Roboto", sans-serif;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+#main .main-3 h1{
+  text-align: center;
+  font-size: 4rem;
+  color: #343b46;
+  margin-top: 5rem;
+  /* margin-bottom: 3rem; */
+}
+
+#main .main-3 .buttons{
+  display: flex;
+  margin: 0rem auto;
+  padding: 5rem 10rem;
+  justify-content: center;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+#main .main-3 .buttons .btn1:hover,
+#main .main-3 .buttons .btn2:hover,
+#main .main-3 .buttons .btn3:hover,
+#main .main-3 .buttons .btn5:hover,
+#main .main-3 .buttons .btn6:hover,
+#main .main-3 .buttons .btn7:hover{
+  background-color: var(--color-primary);
+  border: none;
+  color: var(--color-secondary);
+}
+
+
+
+#main .main-3 .buttons .btn1{
+  width: 24rem;
+  height: 4.5rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+  border-radius: 3rem;
+  border: .2rem solid black;
+  margin: 0 2rem;
+  margin-bottom: 2rem;
+  transition: all 0.2s ease-in;
+}
+
+#main .main-3 .buttons .btn2{
+  
+  width: 12rem;
+  height: 4.5rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+  border-radius: 3rem;
+  border: .2rem solid black;
+  margin: 0 2rem;
+  transition: all 0.2s ease-in;
+}
+
+#main .main-3 .buttons .btn3{
+  
+  width: 14rem;
+  height: 4.5rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+  border-radius: 3rem;
+  border: .2rem solid black;
+  margin: 0 2rem;
+  transition: all 0.2s ease-in;
+}
+#main .main-3 .buttons .btn4{
+  
+  width: 22rem;
+  height: 4.5rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: var(--color-secondary);
+  background-color: black;
+  border-radius: 3rem;
+  border: .2rem solid black;
+  margin: 0 2rem;
+  transition: all 0.2s ease-in;
+}
+#main .main-3 .buttons .btn4:hover{
+  border: 0.3rem solid var(--color-primary);
+}
+#main .main-3 .buttons .btn5{
+  
+  width: 24rem;
+  height: 4.5rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+  border-radius: 3rem;
+  border: .2rem solid black;
+  margin: 0 2rem;
+  transition: all 0.2s ease-in;
+}
+
+#main .main-3 .buttons .btn6{
+  
+  width: 18rem;
+  height: 4.5rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+  border-radius: 3rem;
+  border: .2rem solid black;
+  margin: 0 2rem;
+  transition: all 0.2s ease-in;
+}
+#main .main-3 .buttons .btn7{
+  
+  width: 20rem;
+  height: 4.5rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+  border-radius: 3rem;
+  border: .2rem solid black;
+  margin: 0 2rem;
+  transition: all 0.2s ease-in;
+}
+
+#main .main-4 {
+  /* margin-left: 13rem; */
+  display: flex;
+  gap: 6rem;
+  margin: 0 auto;
+  max-width: 130rem;
+}
+
+#main .main-4 .pic2 img {
+  object-fit: contain;
+
+  width: 100%;
+}
+#main .main-4 .pic2 {
+  flex: 1;
+}
+#main .main-4 .text2{
+  flex: 1;
+}
+#main .main-4 .text2 h1 {
+  margin-top: 8rem;
+  font-size: 4rem;
+  color: #343b46;
+  text-align: start;
+}
+
+#main .main-4 .text2 p {
+  font-size: 1.8rem;
+  font-weight: 400rem;
+  font-family: "Roboto", sans-serif;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+#main .main-5 {
+  display: flex;
+  gap: 5rem;
+  margin: 0 auto;
+  max-width: 130rem;
+  margin-bottom: 10rem;
+  margin-left: 12rem;
+  margin-top: 12rem;
+}
+#main .main-5 .pic3 img {
+  object-fit: contain;
+  /* flex: 1; */
+  width: 100%;
+}
+#main .main-5 .pic3 {
+  flex: 1.2;
+}
+
+#main .main-5 .text-3 {
+  /* width: 50%; */
+  flex: 1;
+}
+#main .main-5 .text-3 h1 {
+  margin-top: 6rem;
+  /* margin-right: 2rem; */
+  font-size: 4rem;
+  color: #343b46;
+}
+#main .main-5 .text-3 p {
+  font-size: 1.6rem;
+  font-weight: 400rem;
+  font-family: "Roboto", sans-serif;
+  margin-top: 2rem;
+}
+#main .main-5 .text-3 button {
+  width: 12rem;
+  height: 4rem;
+  border: 0.2rem solid var(--color-primary);
+  font-size: 1.8rem;
+  background-color: var(--color-secondary);
+  border-radius: 3rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  transition: all 0.2s ease-in;
+  margin-top: 4rem;
+  cursor: pointer;
+}
+#main .main-5 .text-3 button:hover {
+  background-color: #ba2060;
+  border: none;
+  color: var(--color-secondary);
+}
+
+/* Footer Start */
+#footer {
+  background: #000;
+  color: #fff;
+  padding: 8rem 0;
+}
+
+#footer .footerContentContainer {
+  max-width: 130rem;
+  margin: 0 auto;
+}
+
+#footer .footerContentContainer .footerLinksContainer {
+  display: flex;
+  align-items: flex-start;
+}
+
+#footer .footerContentContainer .footerLinksContainer .navigateLinks,
+#footer .footerContentContainer .footerLinksContainer .followLinks {
+  flex: 1;
+}
+#footer .footerContentContainer .footerLinksContainer .collaborateLinks {
+  flex: 2.5;
+}
+
+#footer .footerContentContainer .footerLinksContainer .navigateLinks h4,
+#footer .footerContentContainer .footerLinksContainer .collaborateLinks h4,
+#footer .footerContentContainer .footerLinksContainer .followLinks h4 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 5rem 0 1.5rem 0;
+}
+
+#footer .footerContentContainer .footerLinksContainer .navigateLinks ul li,
+#footer .footerContentContainer .footerLinksContainer .collaborateLinks ul li,
+#footer .footerContentContainer .footerLinksContainer .followLinks ul li {
+  padding: 0.1rem 0;
+}
+
+#footer .footerContentContainer .footerLinksContainer .navigateLinks ul li a,
+#footer .footerContentContainer .footerLinksContainer .collaborateLinks ul li a,
+#footer .footerContentContainer .footerLinksContainer .followLinks ul li a {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+#footer
+  .footerContentContainer
+  .footerLinksContainer
+  .followLinks
+  .socialLinks
+  i {
+  font-size: 2.5rem;
+}
+#footer
+  .footerContentContainer
+  .footerLinksContainer
+  .followLinks
+  .socialLinks
+  i:nth-child(2) {
+  margin: 0 1.7rem;
+}
+
+#footer .footerContentContainer .copyRightContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10rem;
+}
+
+#footer .footerContentContainer .copyRightContainer p {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+#footer .footerContentContainer .copyRightContainer p a {
+  color: #fff;
+}
+/* Footer End */
+

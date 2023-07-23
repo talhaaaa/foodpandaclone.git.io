@@ -1,0 +1,73 @@
+:root {
+    --color-primary: #ff2b85;
+    --color-primary-hover: #c21760;
+    --color-secondary: #ffffff;
+    --color-text: #231f20;
+  }
+  
+  #header .imageContainer .img {
+    background: linear-gradient(#ffffff20, #00000080),
+      url("../image/fp-contact-1.jpeg") no-repeat center center/cover;
+    height: 65rem;
+    width: 100%;
+  }
+  #header h1 {
+    position: absolute;
+    bottom: 8rem;
+    left: 10rem;
+    font-size: 6.5rem;
+    color: #fff;
+  }
+  /* Form Section Start */
+  #formContainer {
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 6rem 0;
+  }
+  
+  .form input {
+    font-size: 1.6rem;
+    border-radius: 5rem;
+    border: 0.15rem solid var(--color-primary);
+    padding: 1.5rem;
+    width: 30rem;
+  }
+  input[type="email"] {
+    margin-left: 4rem;
+  }
+  
+  .form textarea {
+    font-size: 1.6rem;
+    border-radius: 3rem;
+    border: 0.15rem solid var(--color-primary);
+    padding: 1.5rem;
+    width: 81rem;
+    margin: 4rem auto;
+    height: 30rem;
+  }
+  
+  .form button {
+    padding: 1.25rem 3rem;
+    border: 0.25rem solid var(--color-primary);
+    border-radius: 3rem;
+    color: var(--color-primary);
+    background-color: var(--color-secondary);
+  }
+  .form button:hover {
+    color: var(--color-secondary);
+    background-color: var(--color-primary);
+  }
+  /* Form Section End */
+  
+  /* Para Section Start */
+  #para {
+    background-color: #f5f5f6;
+  }
+  
+  #para p {
+    font-size: 1.65rem;
+    color: var(--color-text);
+    text-align: left;
+    padding: 8rem 60rem 8rem 10rem;
+  }
+  /* Form Section End */

@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  :root {
+    --color-primary: #ff2b85;
+    --color-secondary: #fff;
+    --color-text: rgb(7, 7, 7);
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    overflow-x: hidden;
+    font-family: "Lunasima", sans-serif;
+  }
+#header .headerpic{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(9, 9, 9, 0.5)),
+    url("../image/pandads/02-1-e1680017639907.jpg") no-repeat center center/cover;
+    height: 90vh;
+    width: 100vw;
+    color: var(--color-light);
+    position: relative;
+    z-index: -1;
+  
+}
+#header .headerpic .headertext{
+    position: absolute;
+    bottom: 12rem;
+    left:12rem
+ }
+#header .headerpic .headertext h1{
+    margin-right: 60%;
+    color: var(--color-secondary);
+    font-size: 6rem;
+
+}
+#header .headerpic .headertext p{
+    font-size: 1.6rem;
+    color: var(--color-secondary);
+    margin-top: 2rem;
+    font-family: "Roboto", sans-serif;
+    margin-right: 50%;
+    font-weight: 500;
+
+}
+#header .headerpic .headertext button{
+    width: 17rem;
+    height: 4.5rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 3rem;
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    margin-top: 2rem;
+}
+
